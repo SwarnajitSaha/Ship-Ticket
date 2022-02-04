@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("image/cruise/Website-bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    align-items: center;
+}
+
+.navbar{
+    
+    width: 1200px;
+    height: 80px;
+    text-align: center;
+}
+.icon{
+    margin-left: 15px;
+    width: 300px;
+    float: left;
+    height: 90px;
+    text-align: center;
+
+}
+.logo{
+    width: 140px;
+    height: 70%;
+    padding-left: 30px;
+    float: left;
+   padding-top: 15px;
+
+  
+}
+#text1{
+    color: white;
+    margin-top: 25px;
+}
+.menu{
+  width: 650px;
+  float: right;
+  height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float :right;
+}
+ul li{
+    list-style: none;
+    margin-left: 55px;
+    margin-top: 28px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out; 
+
+}
+
+#ticketHadding{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.ticket{
+    width: 90%;
+    height: 300px;
+    background-color: rgb(4, 31, 68);
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+#image{
+    width: 40%;
+    height: 100%;
+}
+.descrption{
+    padding-left: 15px;
+    width: 45%;
+    position: relative;
+    overflow: hidden;
+}
+
+#classTitle{
+    padding-top: 25px;
+    font-size:xx-large ;
+    font-weight: bold;
+    color: rgb(156, 121, 56);
+    
+}
+
+#position{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.price_trip{
+width: fit-content;
+text-align: right;
+font-size: xx-large;
+font-weight: 500;
+margin: auto;
+}
+#price{
+    padding-right: 55px;
+}
+#trip{
+   padding-right: 15px;
+}
+
+.btn_container{
+  margin-top: 20px;
+  
+}
+.call,.book{
+    border: 2px solid cornsilk;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: "monsearrt";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(81, 31, 173);
+}
+.call:hover,.book:hover{
+    background-color: crimson;
+    color: whitesmoke;
+    border-color: rgb(245, 245, 153)2, 112, 100);
+    
+}
+
+
+ /* .btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #58a2ec;
+    z-index: -1;
+    transition: 0.8s;
+    top:0;
+    border-radius: 0 0 50% 50%;
+}
+.call::before{
+     top:0;
+     border-radius: 0 0 50% 50%;
+}
+.call:hover::before{
+    height: 180%;
+}  */
