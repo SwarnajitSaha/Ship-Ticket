@@ -63,7 +63,8 @@
 
 
     <div class="ticketList">
-        <div class="ticket">
+        <form action="book" method ="POST">
+         <div class="ticket">
             <img id="image" src="image/package/economy.jpg" alt="economy">
             <div class="descrption">
                 <div id="classTitle">Economy (01 Person)</div>
@@ -71,7 +72,7 @@
                 <div class="btn_container">
                     <div class="btn">
                         <button class="call">CALL NOW</button>
-                        <button class="book">BOOK TICKET</button>
+                        <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
                     </div>
 
                 </div>
@@ -93,7 +94,7 @@
             <div class="btn_container">
                 <div class="btn">
                     <button class="call">CALL NOW</button>
-                    <button class="book">BOOK TICKET</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
                 </div>
 
             </div>
@@ -112,7 +113,7 @@
             <div class="btn_container">
                 <div class="btn">
                     <button class="call">CALL NOW</button>
-                    <button class="book">BOOK TICKET</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
                 </div>
 
             </div>
@@ -131,7 +132,7 @@
             <div class="btn_container">
                 <div class="btn">
                     <button class="call">CALL NOW</button>
-                    <button class="book">BOOK TICKET</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
                 </div>
 
             </div>
@@ -150,7 +151,7 @@
             <div class="btn_container">
                 <div class="btn">
                     <button class="call">CALL NOW</button>
-                    <button class="book">BOOK TICKET</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
                 </div>
 
             </div>
@@ -169,7 +170,7 @@
             <div class="btn_container">
                 <div class="btn">
                     <button class="call">CALL NOW</button>
-                    <button class="book">BOOK TICKET</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
                 </div>
 
             </div>
@@ -189,7 +190,7 @@
             <div class="btn_container">
                 <div class="btn">
                     <button class="call">CALL NOW</button>
-                    <button class="book">BOOK TICKET</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
                 </div>
 
             </div>
@@ -209,7 +210,7 @@
             <div class="btn_container">
                 <div class="btn">
                     <button class="call">CALL NOW</button>
-                    <button class="book">BOOK TICKET</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
                 </div>
 
             </div>
@@ -230,7 +231,7 @@
             <div class="btn_container">
                 <div class="btn">
                     <button class="call">CALL NOW</button>
-                    <button class="book">BOOK TICKET</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
                 </div>
 
             </div>
@@ -251,7 +252,7 @@
             <div class="btn_container">
                 <div class="btn">
                     <button class="call">CALL NOW</button>
-                    <button class="book">BOOK TICKET</button>
+                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
                 </div>
 
             </div>
@@ -260,6 +261,9 @@
             <div id="price">৳75,000/-</div>
             <div id="trip">Round Trip</div>
         </div>
+
+        </form>
+      
     </div>
 
 
