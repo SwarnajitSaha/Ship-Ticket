@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Document</title>
+    <title>MV BAY ONE</title>
 </head>
 
 <body>
@@ -35,9 +35,9 @@
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">SCHEDULE</a></li>
-                    <li><a href="#">TICKET</a></li>
+                    <li><a href="">TICKET</a></li>
                     <li><a href="LogIn.html">Log In</a></li>
-                    <li><a href="#">Log Out</a></li>
+                    <li><a href="logOut.php">Log Out</a></li>
 
                 </ul>
             </div>
@@ -85,7 +85,7 @@
 
     </div>
 
-
+ 
     <div class="ticket">
         <img id="image" src="image/package/business.jpg" alt="economy">
         <div class="descrption">
@@ -105,7 +105,8 @@
         </div>
     </div>
 
-    <div class="ticket">
+
+        <div class="ticket">
         <img id="image" src="image/package/OpenDeck.PNG" alt="economy">
         <div class="descrption">
             <div id="classTitle"> Open Deck (01 Person)</div>
@@ -123,8 +124,7 @@
             <div id="trip">Round Trip</div>
         </div>
     </div>
-
-    <div class="ticket">
+  <div class="ticket">
         <img id="image" src="image/package/bunker-bed.jpg" alt="economy">
         <div class="descrption">
             <div id="classTitle"> Bunker Bed (01 Person)</div>
@@ -142,7 +142,6 @@
             <div id="trip">Round Trip</div>
         </div>
     </div>
-
     <div class="ticket">
         <img id="image" src="image/package/presidential.jpg" alt="economy">
         <div class="descrption">
@@ -161,7 +160,6 @@
             <div id="trip">Round Trip</div>
         </div>
     </div>
-
     <div class="ticket">
         <img id="image" src="image/package/royal.jpg" alt="economy">
         <div class="descrption">
@@ -210,7 +208,8 @@
             <div class="btn_container">
                 <div class="btn">
                     <button class="call">CALL NOW</button>
-                    <button class="book"  name="echonomy"><a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
+                    <button class="book"  name="echonomy">
+                        <a href="book.php" class="text-decoration-none text-white" > BOOK TICKET</a></button>
                 </div>
 
             </div>
@@ -265,10 +264,6 @@
         </form>
       
     </div>
-
-
-
-
 
 
     <!-- </div> -->
@@ -524,10 +519,6 @@
 
 
     </div>
-
-
-
-
 
 
 </body>

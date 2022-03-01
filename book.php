@@ -8,6 +8,22 @@
     <title>Document</title>
 </head>
 <body>
+<?php
+
+session_start();
+
+if( $_SESSION['logIn']!="yes")
+{
+  echo "
+<script>
+ alert('You are not Login yet');
+   window.location.href='wabPage.php';
+</script>
+";
+}
+
+?>
+
     <div class="container">
         <div class="row">
             <div class="col-md-6 mt-5 bg-white  m-auto shadow font-monospace border boroder-info">

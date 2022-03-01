@@ -7,10 +7,12 @@
 
  session_start();
 
+
+
  if(mysqli_num_rows($result))
  {
 
-    $_SESSION['user']=true;
+ $_SESSION['logIn']="yes";
     echo "
     <script>
        alert('Successfully Login');
